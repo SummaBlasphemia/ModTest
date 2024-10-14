@@ -1,0 +1,13 @@
+{
+  "item.japanmod.sapphire": "Sapphire",
+  "item.japanmod.raw_sapphire": "Raw Sapphire",
+
+  "block.japanmod.sapphire_block": "Block of Sapphire",
+  "block.japanmod.raw_sapphire_block": "Block of Raw Sapphire",
+  "block.japanmod.sapphire_ore": "Sapphire Ore",
+  "block.japanmod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.japanmod.end_stone_sapphire_ore": "End Stone Sapphire Ore",
+  "block.japanmod.nether_sapphire_ore": "Nether Sapphire Ore",
+
+  "Creativetab.JapanMod": "Japan Mod"
+}

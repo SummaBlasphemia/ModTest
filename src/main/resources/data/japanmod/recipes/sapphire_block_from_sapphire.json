@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "japanmod:sapphire"
+    }
+  },
+  "result": {
+    "item": "japanmod:sapphire_block"
+  }
+}
