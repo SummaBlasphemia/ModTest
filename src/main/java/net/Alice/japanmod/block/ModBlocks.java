@@ -1,7 +1,9 @@
 package net.Alice.japanmod.block;
 
 import net.Alice.japanmod.JapanMod;
+import net.Alice.japanmod.block.custom.SoundBlock;
 import net.Alice.japanmod.item.ModItems;
+import net.minecraft.client.resources.sounds.Sound;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -36,6 +38,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> NETHER_SAPPHIRE_ORE = registerBlock("nether_sapphire_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.NETHERRACK).strength(1f).requiresCorrectToolForDrops(), UniformInt.of(3,7)));
 
     public static final RegistryObject<Block> END_STONE_SAPPHIRE_ORE = registerBlock("end_stone_sapphire_ore", () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE).strength(5f).requiresCorrectToolForDrops(), UniformInt.of(3,7)));
+
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block", () -> new SoundBlock((BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK))));
 
     private static<T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {
          RegistryObject<T> toReturn = BLOCKS.register(name, block);
